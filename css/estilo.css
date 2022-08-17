@@ -1,0 +1,37 @@
+header nav{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding-inline-end: 20px;
+}
+header img{
+    padding-left: 80px;
+    padding-top: 12px;
+}
+main{
+    background-color: rgb(241, 240, 240);
+    padding-top: 20px;
+}
+button{
+    background-color: rgb(235, 120, 78);
+    border: none;
+    width: 150px;
+    height: 32px;
+    border-radius: 10px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+article img{
+    width: 280px;
+}
+footer{
+    color: white;
+}
