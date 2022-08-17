@@ -13,10 +13,23 @@ header nav ul li a{
 header img{
     padding-left: 80px;
     padding-top: 12px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 main{
     background-color: rgb(241, 240, 240);
     padding-top: 20px;
+    text-align: center;
+}
+main h1{
+    text-align: left;
+}
+main img{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+main p{
+    text-align: left;
 }
 button{
     background-color: rgb(235, 120, 78);
@@ -29,9 +42,49 @@ button a{
     color: white;
     text-decoration: none;
 }
+article{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+article h1{
+    margin-bottom: 50px;
+}
+article h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
 article img{
-    width: 280px;
+    width: 200px;
+}
+article p{
+    text-align: justify;
+}
+article button{
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 footer{
     color: white;
+}
+footer .data{
+    background-color: white;
+    color: black;
+    max-width: 50px;
+    max-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 3px;
+    font-size: 15px;
+}
+footer h1{
+    margin-top: 50px;
+    font-size: 20px;
+}
+footer h2{
+font-size: 15px;
+}
+footer .end{
+    margin-bottom: 50px;
 }
