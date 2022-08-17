@@ -1,6 +1,4 @@
 body{
-    padding: 0;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -9,15 +7,7 @@ header{
     height: 160px;
 }
 header img{
-    height: 80px;
-    padding-left: 100px;
-    padding-top: 35px;
-    float: left;
-}
-header nav{
-    float: right;
-    padding-top: 50px;
-    padding-right: 100px;
+    width: 70px;
 }
 header nav ul li{
     list-style-type: none;
@@ -30,15 +20,12 @@ header nav ul li a{
 }
 main{
     height: 500px;
-    display: flex;
     background-color: rgb(238, 235, 235);
 }
-main .bloco01 .items{
-    padding-left: 100px;
-    padding-top: 80px;
-    max-width: 500px;
+main .imagem img{
+    width: 300px;
 }
-main .bloco01 button{
+main button{
     margin-top: 20px;
     height: 35px;
     width: 120px;
@@ -48,43 +35,12 @@ main .bloco01 button{
     color: white;
     background-color: rgb(221, 124, 67);
 }
-main .bloco01 p{
-    color: rgb(43, 41, 41);
-}
-main .bloco02{
-    padding-left: 130px;
-    padding-top: 85px;
-}
-main .bloco02 img{
-    width: 500px;
-}
-article{
-    text-align: center;
-    padding-bottom: 110px;
-}
 article h1{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 article img{
     width: 300px;
-}
-article .b01{
-    text-align: left;
-    display: inline-block;
-    max-width: 300px;
-}
-article .b02{
-    text-align: left;
-    padding-left: 50px;
-    display: inline-block;
-    max-width: 300px;
-}
-article .b03{
-    text-align: left;
-    padding-left: 50px;
-    display: inline-block;
-    max-width: 300px;
 }
 article button{
     margin-top: 20px;
@@ -97,25 +53,10 @@ article button{
     background-color: rgb(221, 124, 67);
 }
 footer{
-    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: white;
     background-color: rgb(29, 28, 28);
-}
-footer .publicacoes{
-    text-align: left;
-    width: 300px;
-    display: inline-block;
-}
-footer .sobre{
-    padding-top: 30px;
-    text-align: left;
-    width: 300px;
-    display: inline-block;
-}
-footer .redes{
-    text-align: left;
-    width: 300px;
-    display: inline-block;
 }
 footer h1{
     font-size: 20px;
@@ -125,12 +66,9 @@ footer h2{
 }
 footer .redes img{
     width: 30px;
-    display: inline-flex;
 }
-footer .redes p{
-    display: inline-flex;
-}
-footer .redes p a{
+footer p a{
     text-decoration: none;
     color: white;
+    padding-left: 15px;
 }
