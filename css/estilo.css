@@ -1,5 +1,5 @@
 header nav{
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 150px;
 }
 header nav ul li{
@@ -12,7 +12,7 @@ header nav ul li a{
 }
 header img{
     padding-left: 80px;
-    padding-top: 12px;
+    padding-top: 8px;
     margin-bottom: 25px;
     margin-top: 25px;
 }
@@ -41,6 +41,12 @@ button{
 button a{
     color: white;
     text-decoration: none;
+}
+button a:hover{
+    color: white;
+}
+button:hover{
+    background-color: rgb(231, 85, 27);
 }
 article{
     text-align: center;
@@ -80,10 +86,19 @@ footer .data{
 }
 footer h1{
     margin-top: 50px;
+    margin-bottom: 20px;
     font-size: 20px;
 }
 footer h2{
 font-size: 15px;
+}
+footer img{
+    margin-bottom: 20px;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
 }
 footer .end{
     margin-bottom: 50px;
